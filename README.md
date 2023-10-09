@@ -2,7 +2,7 @@
 
 ####0. Генерация колюча SSH ключа 
 
-    ssh-keygen -t ed25519 -C "petrosrv@gmail.com"
+    ssh-keygen -t ed25519 -C "petrosrv@gmail.comm"
 
 ####1. Добавление сгенерированного SSH-ключа в ssh-агент 
 
@@ -16,11 +16,11 @@
     https://github.com/new
 
 ####2. Установка Git                                         
-    $sudo apt install git
+    sudo apt install git
 
 ####3. Инициализация git
 
-    it config --global user.email "petrosrv@gmail.com"
+    it config --global user.email "petrosrv@gmail.comm"
     git config --global user.name "Roman Petrosyants"
     
 
